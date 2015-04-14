@@ -1,7 +1,6 @@
 # JUToggleButton
-====
 
-Image Toggle Button extends UIButton
+Two-state toggle button which extends UIButton
 
 ## Description
 
