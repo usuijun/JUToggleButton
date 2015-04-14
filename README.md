@@ -5,7 +5,7 @@ Image Toggle Button extends UIButton
 
 ## Description
 
-
+![](./data/toggle.gif)
 
 ## License
 
