@@ -14,6 +14,9 @@
 		0299DBFD1ADD58D9003F6829 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0299DBFC1ADD58D9003F6829 /* Images.xcassets */; };
 		0299DC001ADD58D9003F6829 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0299DBFE1ADD58D9003F6829 /* LaunchScreen.xib */; };
 		0299DC0C1ADD58D9003F6829 /* JUToggleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DC0B1ADD58D9003F6829 /* JUToggleButtonTests.m */; };
+		0299DC181ADD59E5003F6829 /* JSToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DC171ADD59E5003F6829 /* JSToggleButton.m */; };
+		0299DC1E1ADD5DE9003F6829 /* button_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0299DC1C1ADD5DE9003F6829 /* button_01.png */; };
+		0299DC211ADD5E7D003F6829 /* button_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0299DC201ADD5E7D003F6829 /* button_02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		0299DC051ADD58D9003F6829 /* JUToggleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JUToggleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0299DC0A1ADD58D9003F6829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0299DC0B1ADD58D9003F6829 /* JUToggleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUToggleButtonTests.m; sourceTree = "<group>"; };
+		0299DC161ADD59E5003F6829 /* JSToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSToggleButton.h; path = Library/JSToggleButton.h; sourceTree = "<group>"; };
+		0299DC171ADD59E5003F6829 /* JSToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSToggleButton.m; path = Library/JSToggleButton.m; sourceTree = "<group>"; };
+		0299DC1C1ADD5DE9003F6829 /* button_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_01.png; sourceTree = "<group>"; };
+		0299DC201ADD5E7D003F6829 /* button_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,8 @@
 		0299DBEE1ADD58D8003F6829 /* JUToggleButton */ = {
 			isa = PBXGroup;
 			children = (
+				0299DC1B1ADD5DE9003F6829 /* images */,
+				0299DC151ADD58E2003F6829 /* Library */,
 				0299DBF31ADD58D8003F6829 /* AppDelegate.h */,
 				0299DBF41ADD58D8003F6829 /* AppDelegate.m */,
 				0299DBF61ADD58D8003F6829 /* ViewController.h */,
@@ -117,6 +126,24 @@
 				0299DC0A1ADD58D9003F6829 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0299DC151ADD58E2003F6829 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0299DC161ADD59E5003F6829 /* JSToggleButton.h */,
+				0299DC171ADD59E5003F6829 /* JSToggleButton.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		0299DC1B1ADD5DE9003F6829 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0299DC1C1ADD5DE9003F6829 /* button_01.png */,
+				0299DC201ADD5E7D003F6829 /* button_02.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0299DC1E1ADD5DE9003F6829 /* button_01.png in Resources */,
+				0299DC211ADD5E7D003F6829 /* button_02.png in Resources */,
 				0299DBFB1ADD58D9003F6829 /* Main.storyboard in Resources */,
 				0299DC001ADD58D9003F6829 /* LaunchScreen.xib in Resources */,
 				0299DBFD1ADD58D9003F6829 /* Images.xcassets in Resources */,
@@ -221,6 +250,7 @@
 			files = (
 				0299DBF81ADD58D9003F6829 /* ViewController.m in Sources */,
 				0299DBF51ADD58D8003F6829 /* AppDelegate.m in Sources */,
+				0299DC181ADD59E5003F6829 /* JSToggleButton.m in Sources */,
 				0299DBF21ADD58D8003F6829 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
