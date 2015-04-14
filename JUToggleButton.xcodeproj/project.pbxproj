@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02733DCA1ADD84FD00796B25 /* JUToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02733DC91ADD84FD00796B25 /* JUToggleButton.m */; };
 		0299DBF21ADD58D8003F6829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DBF11ADD58D8003F6829 /* main.m */; };
 		0299DBF51ADD58D8003F6829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DBF41ADD58D8003F6829 /* AppDelegate.m */; };
 		0299DBF81ADD58D9003F6829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DBF71ADD58D9003F6829 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		0299DBFD1ADD58D9003F6829 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0299DBFC1ADD58D9003F6829 /* Images.xcassets */; };
 		0299DC001ADD58D9003F6829 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0299DBFE1ADD58D9003F6829 /* LaunchScreen.xib */; };
 		0299DC0C1ADD58D9003F6829 /* JUToggleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DC0B1ADD58D9003F6829 /* JUToggleButtonTests.m */; };
-		0299DC181ADD59E5003F6829 /* JSToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DC171ADD59E5003F6829 /* JSToggleButton.m */; };
 		0299DC1E1ADD5DE9003F6829 /* button_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0299DC1C1ADD5DE9003F6829 /* button_01.png */; };
 		0299DC211ADD5E7D003F6829 /* button_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0299DC201ADD5E7D003F6829 /* button_02.png */; };
 /* End PBXBuildFile section */
@@ -30,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02733DC81ADD84FD00796B25 /* JUToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JUToggleButton.h; path = Library/JUToggleButton.h; sourceTree = "<group>"; };
+		02733DC91ADD84FD00796B25 /* JUToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JUToggleButton.m; path = Library/JUToggleButton.m; sourceTree = "<group>"; };
 		0299DBEC1ADD58D8003F6829 /* JUToggleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JUToggleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0299DBF01ADD58D8003F6829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0299DBF11ADD58D8003F6829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,8 +45,6 @@
 		0299DC051ADD58D9003F6829 /* JUToggleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JUToggleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0299DC0A1ADD58D9003F6829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0299DC0B1ADD58D9003F6829 /* JUToggleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUToggleButtonTests.m; sourceTree = "<group>"; };
-		0299DC161ADD59E5003F6829 /* JSToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSToggleButton.h; path = Library/JSToggleButton.h; sourceTree = "<group>"; };
-		0299DC171ADD59E5003F6829 /* JSToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSToggleButton.m; path = Library/JSToggleButton.m; sourceTree = "<group>"; };
 		0299DC1C1ADD5DE9003F6829 /* button_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_01.png; sourceTree = "<group>"; };
 		0299DC201ADD5E7D003F6829 /* button_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,8 +131,8 @@
 		0299DC151ADD58E2003F6829 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				0299DC161ADD59E5003F6829 /* JSToggleButton.h */,
-				0299DC171ADD59E5003F6829 /* JSToggleButton.m */,
+				02733DC81ADD84FD00796B25 /* JUToggleButton.h */,
+				02733DC91ADD84FD00796B25 /* JUToggleButton.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -248,9 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02733DCA1ADD84FD00796B25 /* JUToggleButton.m in Sources */,
 				0299DBF81ADD58D9003F6829 /* ViewController.m in Sources */,
 				0299DBF51ADD58D8003F6829 /* AppDelegate.m in Sources */,
-				0299DC181ADD59E5003F6829 /* JSToggleButton.m in Sources */,
 				0299DBF21ADD58D8003F6829 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +446,7 @@
 				0299DC111ADD58D9003F6829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0299DC121ADD58D9003F6829 /* Build configuration list for PBXNativeTarget "JUToggleButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +455,7 @@
 				0299DC141ADD58D9003F6829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

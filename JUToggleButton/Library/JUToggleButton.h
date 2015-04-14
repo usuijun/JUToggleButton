@@ -1,5 +1,5 @@
 //
-//  JSToggleButton.h
+//  JUToggleButton.h
 //  JUToggleButton
 //
 //  Created by JunUsui on 2015/04/14.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /** Button toggled by TouchUpInside */
-@interface JSToggleButton : UIButton
+@interface JUToggleButton : UIButton
 
 - (void) setOnImage:(UIImage*) onImage withOffImage:(UIImage*) offImage;
 - (BOOL) isOn;

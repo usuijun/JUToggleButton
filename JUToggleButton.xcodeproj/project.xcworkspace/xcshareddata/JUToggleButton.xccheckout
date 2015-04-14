@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>22EC8823-8CD9-4BB5-96B4-51F0BDD0B5BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JUToggleButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24679F0635A6B34DD26761D37CF682983573DB10</key>
+		<string>https://github.com/usuijun/JUToggleButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JUToggleButton.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24679F0635A6B34DD26761D37CF682983573DB10</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/usuijun/JUToggleButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24679F0635A6B34DD26761D37CF682983573DB10</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24679F0635A6B34DD26761D37CF682983573DB10</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JUToggleButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>

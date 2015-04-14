@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JSToggleButton.h"
+#import "JUToggleButton.h"
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet JSToggleButton *toggleButton;
+@property (weak, nonatomic) IBOutlet JUToggleButton *toggleButton;
 
 @property (weak, nonatomic) IBOutlet UILabel *debugLabel;
 

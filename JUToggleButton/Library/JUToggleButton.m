@@ -1,14 +1,14 @@
 //
-//  JSToggleButton.m
+//  JUToggleButton.m
 //  JUToggleButton
 //
 //  Created by JunUsui on 2015/04/14.
 //  Copyright (c) 2015年 JunUsui. All rights reserved.
 //
 
-#import "JSToggleButton.h"
+#import "JUToggleButton.h"
 
-@implementation JSToggleButton
+@implementation JUToggleButton
 
 - (void)awakeFromNib {
     [super awakeFromNib];
