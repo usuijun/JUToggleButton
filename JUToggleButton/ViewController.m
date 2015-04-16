@@ -20,10 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // setup toggle button
-    UIImage* onImage = [UIImage imageNamed:@"button_01.png"];
-    UIImage* offImage = [UIImage imageNamed:@"button_02.png"];
-    [_toggleButton setOnImage:onImage withOffImage:offImage];
+    // setup toggle button from script
+    _toggleButton.onImageName = @"button_01.png";
+    _toggleButton.offImageName = @"button_02.png";
 }
 
 - (void)didReceiveMemoryWarning {

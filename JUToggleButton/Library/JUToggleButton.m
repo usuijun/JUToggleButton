@@ -28,11 +28,19 @@
 }
 
 /**
- set ON/Off image
+ set ON image
  */
-- (void) setOnImage:(UIImage*) onImage withOffImage:(UIImage*) offImage {
-    [self setImage:onImage forState:UIControlStateNormal];
-    [self setImage:offImage forState:UIControlStateSelected];
+- (void) setOnImageName:(NSString*) imageName {
+    UIImage* image = [UIImage imageNamed:imageName];
+    [self setImage:image forState:UIControlStateNormal];
+}
+
+/**
+ set OFF image
+ */
+- (void) setOffImageName:(NSString*) imageName {
+    UIImage* image = [UIImage imageNamed:imageName];
+    [self setImage:image forState:UIControlStateSelected];
 }
 
 - (BOOL) isOn {
