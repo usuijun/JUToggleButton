@@ -11,7 +11,9 @@
 /** Button toggled by TouchUpInside */
 @interface JUToggleButton : UIButton
 
-- (void) setOnImage:(UIImage*) onImage withOffImage:(UIImage*) offImage;
+@property (nonatomic) NSString* onImageName;
+@property (nonatomic) NSString* offImageName;
+
 - (BOOL) isOn;
 
 @end

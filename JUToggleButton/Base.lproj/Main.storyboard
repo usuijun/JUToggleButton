@@ -16,9 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVN-V7-IRa" customClass="JUToggleButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVN-V7-IRa" customClass="JUToggleButton">
                                 <rect key="frame" x="250" y="250" width="100" height="100"/>
-                                <state key="normal">
+                                <state key="normal" image="button_01.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -31,14 +31,33 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7X-ea-q5V" customClass="JUToggleButton">
+                                <rect key="frame" x="250" y="66" width="100" height="100"/>
+                                <state key="normal" image="button_01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="onImageName" value="button_01.png"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="offImageName" value="button_02.png"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User defined runtime attribute" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAk-Em-idd">
+                                <rect key="frame" x="185" y="174" width="230" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1Mc-pm-LRA" firstAttribute="centerX" secondItem="CVN-V7-IRa" secondAttribute="centerX" id="0Dx-Iu-Ht1"/>
-                            <constraint firstAttribute="centerX" secondItem="CVN-V7-IRa" secondAttribute="centerX" id="Evc-RE-cwa"/>
-                            <constraint firstAttribute="centerY" secondItem="CVN-V7-IRa" secondAttribute="centerY" id="oj6-6s-huX"/>
-                            <constraint firstItem="1Mc-pm-LRA" firstAttribute="top" secondItem="CVN-V7-IRa" secondAttribute="bottom" constant="36" id="ya8-Rh-yld"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="1Mc-pm-LRA" secondAttribute="bottom" constant="193" id="z31-kR-Qay"/>
+                            <constraint firstItem="1Mc-pm-LRA" firstAttribute="top" secondItem="CVN-V7-IRa" secondAttribute="bottom" constant="36" id="1Jx-wz-8Is"/>
+                            <constraint firstItem="K7X-ea-q5V" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="46" id="BS6-oc-pMK"/>
+                            <constraint firstItem="K7X-ea-q5V" firstAttribute="leading" secondItem="CVN-V7-IRa" secondAttribute="leading" id="BvR-f2-VmF"/>
+                            <constraint firstItem="1Mc-pm-LRA" firstAttribute="centerX" secondItem="CVN-V7-IRa" secondAttribute="centerX" id="Ja5-GZ-HAM"/>
+                            <constraint firstItem="CVN-V7-IRa" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Vo8-kd-Q22"/>
+                            <constraint firstItem="jAk-Em-idd" firstAttribute="top" secondItem="K7X-ea-q5V" secondAttribute="bottom" constant="8" symbolic="YES" id="nuK-0X-74r"/>
+                            <constraint firstItem="jAk-Em-idd" firstAttribute="centerX" secondItem="K7X-ea-q5V" secondAttribute="centerX" id="osf-CV-xOm"/>
+                            <constraint firstItem="CVN-V7-IRa" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="vRx-e9-rZh"/>
                         </constraints>
                     </view>
                     <connections>
@@ -50,4 +69,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="button_01.png" width="100" height="100"/>
+    </resources>
 </document>
